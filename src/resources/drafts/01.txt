@@ -1,0 +1,68 @@
+(ns net.solobit.tools.workflow)
+;; The three principal virtues of a programmer are Laziness, Impatience, and Hubris
+#_(todo "Some task")
+#_(need! when?? where?? why?? with-whom?? which??)
+
+;; ``computer listening``
+;; ``being said``...(say "I'll be right back Jeeves")
+;; Jeeves --> triggers computer but has to look-behind the trigger word: Jeeves ...
+
+;; >>?>> Might hear something else like "I'll pee right pack jeesh"
+;; resolve this problem !!
+
+;; > *I'll be right back* > (I) (will) (be) (right) (back) > (brb)
+;; (brb)
+;; (where-to??)
+;; (when-back??)
+;; (with-whom??)
+
+(defn when?
+  []
+  (println "Ok."))
+
+(defn when??
+  []
+  (println "When will this take place?"))
+
+(when??)
+
+;; (when) => 
+"
+webster:
+
+Definition of WHEN
+
+1 : at what time <when will you return>
+2 a : at or during which time
+  b : and then
+
+See when defined for English-language learners »
+See when defined for kids »
+
+Examples of WHEN
+
+When did the American Civil War begin? => triggers a lookup for 'date/time' using simple-internet-lookup
+The detective asked me when I last saw her. => doesn't indicate we need to take action
+When is the next performance? => triggers a lookup in our internal database, probably the agenda to start with
+It was a time when people didn't have to lock their doors. => notes that there was a time in human history when 'people' didn't...
+the happy days when we were together => indicates a (happy, sentiment) time when this person was with (together) another person (we)
+
+We're still waiting for the test results, when we'll decide our next move. =>
+``Ok this was pretty hard for me to get actually`` e.g.
+1) So what will you do?
+2) I'll have to see, perhaps use some other criteria since We're still waiting for the test results, when we'll decide our next move.
+2) So we'll have to use some other information to decide upon.
+
+Origin of WHEN
+
+Middle English, from Old English hwanne, hwenne; akin to Old High German hwanne when, Old English hwā who — more at who
+First Known Use: before 12th century
+Rhymes with WHEN
+
+ben, den, en, fen, Fenn, gen, glen, hen, ken, Ken, n, pen, Rennes, Seine, sen, Sten, ten, then, wen, wren, Wren, yen, Zen
+^^ CAN BE USED to filter out possible faulty interpertation of the audio input since this would be a command language
+"
+;; 
+
+
+
